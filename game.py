@@ -1,6 +1,7 @@
 import characters
 import civilizations
 import board
+import gui
 
 
 
@@ -9,9 +10,13 @@ def main():
     try:
         game = define_board()
         print(game.board_size)
+        rendered = gui.BoardGUI(game.board)
+
+
     except ValueError:
         print('Please retry.')
         main()
+
 
 
 def define_board():
@@ -33,4 +38,5 @@ def define_board():
     else:
         raise ValueError ('Bad board size')
 
-main()
+if __name__ == "__main__":
+    main()
