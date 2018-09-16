@@ -15,7 +15,7 @@ class Board():
             2: Tile.create_desert,
             3: Tile.create_forest,
             4: Tile.create_plains,
-            5: Tile.create_mountains
+            5: Tile.create_mountains,
         }
         tile = terain_names[terain_id]((cords))
         return tile

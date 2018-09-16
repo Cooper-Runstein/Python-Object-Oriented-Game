@@ -64,9 +64,9 @@ class Catapult(Character):
         self.atk = 3
         self.deff = 0
 
-base_char = Character({'name': 'Bob', 'hp': 10, 'atk': 8, 'def': 4 })
-secondary_char = Warrior({'name': 'Fred', 'hp': 10, 'atk': 5, 'def': 3})
-peasant = Peasant({'name': 'Sam', 'hp': 10, 'atk': 5, 'def': 3})
+# base_char = Character({'name': 'Bob', 'hp': 10, 'atk': 8, 'def': 4 })
+# secondary_char = Warrior({'name': 'Fred', 'hp': 10, 'atk': 5, 'def': 3})
+# peasant = Peasant({'name': 'Sam', 'hp': 10, 'atk': 5, 'def': 3})
 
 # print(base_char)
 # print(secondary_char)

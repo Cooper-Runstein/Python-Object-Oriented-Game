@@ -27,10 +27,10 @@ class Civilization():
 
 
 
-
-c = Civilization('team1', {})
-unit = characters.Warrior({'name': 'Jim',})
-c.add_unit(unit)
-print(c)
-c.remove_unit(unit)
-print(c)
+#
+# c = Civilization('team1', {})
+# unit = characters.Warrior({'name': 'Jim',})
+# c.add_unit(unit)
+# print(c)
+# c.remove_unit(unit)
+# print(c)
